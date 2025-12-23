@@ -2,8 +2,8 @@
 #include <BLEUtils.h>
 #include <BLEServer.h>
 
-const char* BEACON_ID = "BEACON_A";  // CHANGE for each beacon
-
+const char* BEACON_ID = "BCN_A";  // CHANGE for each beacon
+  
 void setup() {
   Serial.begin(115200);
 
