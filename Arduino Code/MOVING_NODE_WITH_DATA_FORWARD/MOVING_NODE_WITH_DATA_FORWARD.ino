@@ -22,13 +22,14 @@ PositionPacket packet;
 BLEScan *pBLEScan;
 
 float txPower = -70.0;
-float n = 2.5;
+float n = 3;
 float D = 2.0;
 
-#define RSSI_SAMPLES 3
+#define RSSI_SAMPLES 10
 #define RSSI_TIMEOUT 5000
 
 struct BeaconData {
+
   int rssi_buf[RSSI_SAMPLES];
   unsigned long last_seen;
   bool detected;
